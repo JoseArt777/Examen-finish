@@ -1,0 +1,26 @@
+#blog h3, h4{
+	text-align: center;
+
+}
+h3{
+	font-size: 50px;
+	
+}
+
+
+#blog .contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-family: 'Bellota', cursive;
+
+
+}
+#blog article{
+	margin: 15px;
+}
+#blog img{
+	width: 100%;
+	max-width: 280px;
+}
+

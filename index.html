@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>valida la contraseña</title>
+	<meta charset="utf-8">
+	<link rel="icon"  href="icono.ico">
+	<link rel="stylesheet" type="text/css" href="CSS1/estilos.css">
+
+<script>
+function comprobarClave(){
+	clave1= document.f1.clave1.value;
+	clave2= document.f1.clave2.value;
+
+	if (clave1=="jose" && clave2== "lopez"){
+		alert("Los Datos Coinciden...\nBienvenido");
+		var href="index2.html";
+		window.location=href;
+	}
+	else{
+		alert("Las dos claves son distintas... \nIntente nuevamente.");
+		var href="index.html";
+		window.location=href;
+	};
+}
+</script>
+</head>
+
+<body background="login.jpg">
+
+<div class="validacion" >
+	<h1 class="h2">Valida si la primer contraseña y la segunda coinciden al mismo usuario</h1></br>
+<center>Escribe las contraseñas correctas.</center></br>
+
+<form action="#" name="f1" class="f1" >
+	Clave: <input type="password" name="clave1" class="input"  placeholder="&#128273; Ingresa contraseña" /><hr></br>
+
+	Segunda Clave: <input type="password" name="clave2" class="input" placeholder="&#128273; Segunda contraseña" /><hr></br>
+	<input type="button"  value="Comprobar si son iguales" onclick="comprobarClave()" class="loguer" />
+
+
+</div>
+</body>
+</html>

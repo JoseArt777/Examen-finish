@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body, img, hr, td, b{
+	margin-bottom:auto;
+	opacity: 100%;
+		font-family: 'Bellota', cursive;
+
+}
+
+
+.titulo{
+	height: 50px;
+	background-color: orange;
+	font-size: 40;
+	cursor:auto;
+	position: relative;
+	 font-family: 'Indie Flower', cursive;;
+	font-style:italic;
+	font-weight:bold;
+	color: white;
+	}
+.page{
+	width:1000px;
+	margin:0 auto;
+	overflow: hidden;
+
+	height: auto;
+}
+.align{
+	padding: 25px;
+	font-family: 'Bellota', cursive;
+	color: white;
+
+
+}
+
+#fotona{
+	border-radius: 50px;
+}
+
+
+hr {
+height: 10px;
+width: 60px;
+  background-color:#C6A41E ;
+}
+
+
+th{
+	background-color: #4CAF50;
+	color: white;
+
+}
+
+tr:nth-child(even){
+	background-color:  #0E6251;
+	border-radius: 80px 20px;
+	color: white;
+}
+
+#page{
+	border-radius: 80px 80px;
+	border-color: #C6A41E;
+
+}
+.redes{
+	margin-top: 250px;
+	font-size: 50px;
+	padding: 10px;
+
+}
+
+
+
